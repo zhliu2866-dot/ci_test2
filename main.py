@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "CI/CD 部署成功！这是公网接口"}
+    return {"message": "CI/CD 部署成功！这是公网接口XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
 
 @app.get("/hello")
 def hello():
